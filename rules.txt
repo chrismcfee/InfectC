@@ -11,8 +11,8 @@ A = Red on yellow
 **************
 
 ****EXAMPLE ARGUMENTS****
-perl infect.pl --fast --map map.vrs
-perl infect.pl --fastest --x 50 --y 100
+cc infect.c --fast --map map.vrs
+cc infect.c --fastest --x 50 --y 100
 *************************
 
 The town starts with one soldier, ten doctors and three infected.
