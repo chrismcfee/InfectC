@@ -1,4 +1,5 @@
 //print functions implementation
+//none of these have been tested yet
 #include "display.h"
 #include <string.h>
 
@@ -21,7 +22,7 @@ void initNcurses()
 	init_pair(6, COLOR_CYAN, COLOR_GREEN);
 }
 
-//here comes the tricky part
+//"now here comes the tricky part"
 
 /*
  * displayBoard(const Board * const * const board) displays our game board line by line.
@@ -96,7 +97,6 @@ int displayBoard(const Board * const * const board)
 	mvprintw(i, 0, "Day %u", gameVar.time.days);
 	mvprintw(++i, 0, "Citizens: %u, Infected: %u, Doctors: %u, Nurses: %u, Soldiers: %u, Dead: %u", 
 		units->citizens, units->infected, units->doctors, units->nurses, units->soldiers, units->dead);
-
 	return i;
 }
 
@@ -113,7 +113,6 @@ void printError(const char *error)
 }
 
 //lists the commands that are also in the README.md
-//btw none of these work/have been tested yet
 void printHelp()
 {
     fprintf(stdout, "--map/-m <str>\t\tSpecify a file to read from containing a map, incompatible with -x/-y\n");
@@ -137,6 +136,36 @@ void printVersion()
 	exit(EXIT_SUCCESS);
 }
 
-//also need a print in middle function that goes here; not sure how to write this one yet but it won't be easy
-//function prototype explains what this function needs for now
+void print_in_middle(WINDOW *win, const int starty, const int startx, int width, const char *string, const chtype color)
+{
+
+int length, x, y;
+float temp;
+
+if (win == NULL) {
+    win = stdscr;
+}
+
+getyx(win, y, x);
+
+if (startx != 0) {
+    x = startx;
+}
+
+if (starty != 0) {
+    y = starty;
+}   
+
+if (width == 0) {
+    width = 80;
+}   
+
+length = strlen(string);
+temp = (width - length) / 2;
+x = startx + (int)temp;
+wattron(win, color);
+mvwprintw(win, y, x, "%s", string);
+wattroff(win, color);
+refresh();
+}
 
