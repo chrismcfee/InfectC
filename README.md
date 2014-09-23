@@ -1,9 +1,7 @@
-Infection
+InfectC
 =========
 
-Epidemic simulator. The original idea, ruleset and gameplay elements were imagined by [Ziddykins](https://github.com/Ziddykins/Infect) but the code itself was developped independently at first. Some balance changes by [ilovecock](https://github.com/ilovecock/Infect) were added later on.
-
-Original Infect written in Perl by Ziddykins.
+Epidemic simulator rewritten from Perl to C. The original idea, code, ruleset and gameplay elements were imagined by [Ziddykins](https://github.com/Ziddykins/Infect) but the code itself was develpped independently at first. Some balance changes by [ilovecock](https://github.com/ilovecock/Infect) were added later on.
 
 ![alt text](http://imgur.com/abc.jpg "Add screenshot here")
 
