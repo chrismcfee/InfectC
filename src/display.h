@@ -12,3 +12,4 @@ void printVersion();
 void print_in_middle(WINDOW *win, const int starty, const int startx, int width, const char *string, const chtype color);
 
 #endif
+
