@@ -1,3 +1,42 @@
-Credit for the rules to this game goes to Ziddykins from fortune.org/g/
+Infection
+=========
 
-Rules are listed in the rules.txt file
+Epidemic simulator. The original idea, ruleset and gameplay elements were imagined by [Ziddykins](https://github.com/Ziddykins/Infect) but the code itself was developped independently at first. Some balance changes by [ilovecock](https://github.com/ilovecock/Infect) were added later on.
+
+Original Infect written in Perl by Ziddykins.
+
+![alt text](http://imgur.com/abc.jpg "Add screenshot here")
+
+##Play
+
+Commands:
+
+- ```-h``` or ```--help```: print the help
+- ```-v``` or ```--version```: print the version information
+- ```--slow```: refresh the screen every 10 days
+- ```--fast```: refresh the screen every 5 days
+- ```--fastest```: refresh the screen every day
+- ```--steps```: refresh step-by-step by pressing ```n``` on the keyboard
+- ```-m``` or ```--map```: specify the path to a custom map to load it. Incompatible with the following flags.
+- ```-x``` and/or ```-y```: specify the dimensions of the map
+- ```-d```, ```-i```, ```-n```,```-s```, ```-w```: specify the number of doctors, infected, nurses, soldiers and/or wood
+
+The default arguments are X = 79, Y = 20, --fast. If you don't specify the x/y dimensions, 16 doctors, 16 infected, 32 soldiers and 80 nurses are spread randomly on the map and you get 790 wood logs. They scale with the dimensions automatically.
+
+Q quits the simulation.
+
+##Issues
+
+- Add issues here.
+
+##Version
+
+0.1
+
+##Installation
+
+- Run ```make``` to get a release build or ```make DEBUG=1``` to get a debug build, which logs to infect.log
+
+##Dependencies
+
+* Ncurses
