@@ -27,6 +27,16 @@ The default arguments are X = 79, Y = 20, --fast. If you don't specify the x/y d
 
 Q quits the simulation.
 
+##To Do
+
+- game menu
+- game itself
+- logging
+- main function
+- generate file
+- Makefile
+- testing
+
 ##Issues
 
 - Add issues here.
