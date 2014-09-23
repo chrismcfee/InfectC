@@ -79,3 +79,4 @@ void freeCircularLinkedList(List **list)
 		*list = NULL;
 	}
 }
+
