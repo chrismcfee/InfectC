@@ -1,13 +1,17 @@
 InfectC
 =========
 
-Epidemic simulator rewritten from Perl to C. The original idea, code, ruleset and gameplay elements were imagined by [Ziddykins](https://github.com/Ziddykins/Infect) but the code itself was develpped independently at first. Some balance changes by [ilovecock](https://github.com/ilovecock/Infect) were added later on.
+##AKA EBOLA SIMULATOR
 
-![alt text](http://imgur.com/abc.jpg "Add screenshot here")
+Epidemic simulator rewritten from Perl to C. The original idea, code, ruleset and gameplay elements were all imagined by [Ziddykins](https://github.com/Ziddykins/Infect) but the code itself was develpped independently at first. Some balance changes by [ilovecock](https://github.com/ilovecock/Infect) were added later on.
+
+##SCREENSHOTS TO BE ADDED
+
+![alt text](http://imgur.com/abc.jpg "Add screenshot here") 
 
 ##Play
 
-Commands:
+Draft Commands:
 
 - ```-h``` or ```--help```: print the help
 - ```-v``` or ```--version```: print the version information
@@ -38,3 +42,4 @@ Q quits the simulation.
 ##Dependencies
 
 * Ncurses
+
