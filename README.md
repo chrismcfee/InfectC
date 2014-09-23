@@ -1,11 +1,15 @@
 InfectC
 =========
 
-##AKA Ebola Simulator
+##A.K.A Ebola Simulator
 
-Epidemic simulator rewritten from Perl to C. The original idea, code, ruleset and gameplay elements were all imagined by [Ziddykins](https://github.com/Ziddykins/Infect) but the code itself was develpped independently at first. Some balance changes by [ilovecock](https://github.com/ilovecock/Infect) were added later on.
+Epidemic simulator rewritten from Perl to C. The original idea, code, ruleset and gameplay elements were all imagined by [Ziddykins](https://github.com/Ziddykins/Infect)
+
+Balance changes provided by [ilovecock](https://github.com/ilovecock/Infect).
 
 ##Screenshots to be added
+
+![alt text](http://imgur.com/abc.jpg "Add screenshot here")
 
 ![alt text](http://imgur.com/abc.jpg "Add screenshot here") 
 
@@ -31,7 +35,6 @@ Q quits the simulation.
 
 - game menu
 - game itself
-- logging
 - main function
 - generate file
 - Makefile
