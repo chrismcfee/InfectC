@@ -46,3 +46,5 @@ typedef struct _variables {
 extern Variables gameVar;
 
 #endif
+
+
