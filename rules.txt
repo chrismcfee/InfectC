@@ -10,11 +10,6 @@ F = Fire (Flashing red/yellow)
 A = Red on yellow
 **************
 
-****EXAMPLE ARGUMENTS****
-cc infect.c --fast --map map.vrs
-cc infect.c --fastest --x 50 --y 100
-*************************
-
 The town starts with one soldier, ten doctors and three infected.
 Everything except blank spaces and bodies get to take an action, and
 that action is in a random direction (N, W, S, E).
