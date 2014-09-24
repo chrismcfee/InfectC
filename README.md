@@ -35,13 +35,11 @@ Q quits the simulation.
 
 ##To Do
 
-- game menu
 - game itself
 - main function
 - Makefile
 - testing
 - enhance docs
-- set proper variables
 
 ##Issues
 
