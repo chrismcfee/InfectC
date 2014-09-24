@@ -3,7 +3,7 @@ InfectC
 
 ##A.K.A. Ebola Simulator
 
-![alt text](http://fc07.deviantart.net/fs70/i/2014/238/0/2/ebola_chan_pony_by_kaboderp_sketchy-d7wtbj5.jpg "Ebola-chan")
+![alt text](http://fc07.deviantart.net/fs70/i/2014/238/0/2/ebola_chan_pony_by_kaboderp_sketchy-d7wtbj5.jpg "Thank you, Ebola-chan!")
 
 Epidemic simulator rewritten from Perl to C. The original idea, code, ruleset and gameplay elements were all imagined by [Ziddykins](https://github.com/Ziddykins/Infect)
 
