@@ -1,8 +1,6 @@
 InfectC
 =========
-
 ##A.K.A. Ebola Simulator
-
 ##Version 0.1
 
 ![alt text](http://fc07.deviantart.net/fs70/i/2014/238/0/2/ebola_chan_pony_by_kaboderp_sketchy-d7wtbj5.jpg "Thank you, Ebola-chan!")
