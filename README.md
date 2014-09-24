@@ -44,4 +44,5 @@ The default arguments are X = 79, Y = 20, --fast. If you don't specify the x/y d
 
 ##Known issues
 
-- None at this time.
+- Counters are broken.
+- AI is terrible for everything.
