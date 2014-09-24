@@ -39,6 +39,7 @@ Q quits the simulation.
 - Makefile
 - testing
 - enhance docs
+- set proper variables
 
 ##Issues
 

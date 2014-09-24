@@ -10,11 +10,10 @@ F = Fire (Flashing red/yellow)
 A = Red on yellow
 **************
 
-(Add example parameters here in honor of Ziddykins?)
-
-The town starts with one soldier, ten doctors and three infected.
+The town starts with x soldiers, y doctors and z infected (user defined).
+(Original rules state 1 soldier, 10 doctors, and 3 infected.)
 Everything except blank spaces and bodies get to take an action, and
-that action is in a random direction (N, W, S, E).
+that action is in a random direction (N, E, S, W).
 
 After all units have taken an action, the move function is called
 where the unit again picks a random direction. If the direction which
@@ -68,12 +67,12 @@ If it picks a citizen:
 
 Walls:
 After 100 days, citizens can build walls. The town has a limited supply
-of wood (5000 currently). Each wall takes between 1 and 25 wood to build
+of wood (5000 is recommended amount). Each wall takes between 1 and 25 wood to build
 once out of wood, there is no getting more (yet?). Currently the building
 AI is absolutely terrible especially since they move each turn.
 
 Fire:
-Does nothing yet, but citizens sure like to start 'em
+Does nothing yet, but citizens sure like to start 'em.
 
 Angels:
 There is a 25% chance an angel will spawn on a day that is a multiple
