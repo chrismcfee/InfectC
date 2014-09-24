@@ -1,6 +1,7 @@
 InfectC
 =========
 
+##Version 0.1
 ##A.K.A. Ebola Simulator
 
 ![alt text](http://fc07.deviantart.net/fs70/i/2014/238/0/2/ebola_chan_pony_by_kaboderp_sketchy-d7wtbj5.jpg "Thank you, Ebola-chan!")
@@ -33,28 +34,22 @@ The default arguments are X = 79, Y = 20, --fast. If you don't specify the x/y d
 
 Q quits the simulation.
 
-##To Do
+##Dependencies
 
-- game itself
-- main function
-- Makefile
-- testing
-- enhance docs
-
-##Issues
-
-- Add issues here.
-
-##Version
-
-0.1
+- ncurses
+- make
 
 ##Installation
 
 - Run ```make``` to get a release build or ```make DEBUG=1``` to get a debug build, which logs to infect.log
 
-##Dependencies
 
-- ncurses
+##Known issues
 
+- None at this time.
+
+##To do:
+
+- Update this README.md
+- Create Makefile
 
