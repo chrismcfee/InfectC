@@ -1,8 +1,9 @@
 InfectC
 =========
 
-##Version 0.1
 ##A.K.A. Ebola Simulator
+
+##Version 0.1
 
 ![alt text](http://fc07.deviantart.net/fs70/i/2014/238/0/2/ebola_chan_pony_by_kaboderp_sketchy-d7wtbj5.jpg "Thank you, Ebola-chan!")
 
@@ -43,7 +44,6 @@ Q quits the simulation.
 
 - Run ```make``` to get a release build or ```make DEBUG=1``` to get a debug build, which logs to infect.log
 
-
 ##Known issues
 
 - None at this time.
@@ -51,5 +51,4 @@ Q quits the simulation.
 ##To do:
 
 - Update this README.md
-- Create Makefile
 
