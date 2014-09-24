@@ -36,7 +36,6 @@ Q quits the simulation.
 - game menu
 - game itself
 - main function
-- board generation
 - Makefile
 - testing
 - enhance docs
