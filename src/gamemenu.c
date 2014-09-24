@@ -70,8 +70,8 @@ void displayMenu()
 	listSteps = listSteps->next; // Default value is No
 
 	int counters[7];
-	counters[XC] = 30;
-	counters[YC] = 30;
+	counters[XC] = 79;
+	counters[YC] = 20;
 	updateUnits(counters);
 
 	/* Initialize items */

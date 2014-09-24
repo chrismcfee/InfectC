@@ -29,7 +29,7 @@ Draft Commands:
 - ```-x``` and/or ```-y```: specify the dimensions of the map
 - ```-d```, ```-i```, ```-n```,```-s```, ```-w```: specify the number of doctors, infected, nurses, soldiers and/or wood
 
-The default arguments are X = 79, Y = 20, --fast. If you don't specify the x/y dimensions, 16 doctors, 16 infected, 32 soldiers and 80 nurses are spread randomly on the map and you get 790 wood logs. They scale with the dimensions automatically.
+The default arguments are X = 79, Y = 20, --fast. If you don't specify the x/y dimensions, 16 doctors, 8 infected, 32 soldiers and 80 nurses are spread randomly on the map and you get 790 wood logs. They scale with the dimensions automatically.
 
 Q quits the simulation.
 
