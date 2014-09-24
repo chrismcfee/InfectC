@@ -1,7 +1,7 @@
 InfectC
 =========
 ##A.K.A. Ebola Simulator
-##Version 0.1
+##Version 1.0
 
 ![alt text](http://fc07.deviantart.net/fs70/i/2014/238/0/2/ebola_chan_pony_by_kaboderp_sketchy-d7wtbj5.jpg "Thank you, Ebola-chan!")
 
@@ -9,11 +9,13 @@ Epidemic simulator rewritten from Perl to C. The original idea, code, ruleset an
 
 Balance changes provided by [ilovecock](https://github.com/ilovecock/Infect).
 
-##Screenshots to be added
+##Screenshots
 
-![alt text](http://imgur.com/abc.jpg "Add screenshot here")
+![alt text](https://i.imgur.com/2PdkMTw.png "Main Menu")
 
-![alt text](http://imgur.com/abc.jpg "Add screenshot here") 
+![alt text](https://i.imgur.com/At8KNFY.png "Hostpital.vrs") 
+
+![all text](https://i.imgur.com/MgZ5IIK.png "InfectC logo map")
 
 ##Play
 
@@ -31,8 +33,6 @@ Draft Commands:
 
 The default arguments are X = 79, Y = 20, --fast. If you don't specify the x/y dimensions, 16 doctors, 8 infected, 32 soldiers and 80 nurses are spread randomly on the map and you get 790 wood logs. They scale with the dimensions automatically.
 
-Q quits the simulation.
-
 ##Dependencies
 
 - ncurses
@@ -45,8 +45,3 @@ Q quits the simulation.
 ##Known issues
 
 - None at this time.
-
-##To do:
-
-- Update this README.md
-

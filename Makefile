@@ -19,7 +19,7 @@ _OBJECTS := $(_HEADERS:.h=.o)
 OBJECTS = $(patsubst %,$(ODIR)/%,$(_OBJECTS))
 HEADERS = $(patsubst %,$(SRC)/%,$(_HEADERS))
 
-default: infect
+default: infectc
 
 build:
 	@test -d $(ODIR) || mkdir $(ODIR)
@@ -33,7 +33,7 @@ clean:
 
 rebuild: clean default
 
-infect: ${OBJECTS} $(SRC)/include.h
+infectc: ${OBJECTS} $(SRC)/include.h
 	${CC} $^ $(SRC)/main.c $(LDFLAGS) $(CFLAGS) -o $(BDIR)/$@
 
 $(ODIR)/%.o: $(SRC)/%.c $(SRC)/%.h $(SRC)/include.h build
